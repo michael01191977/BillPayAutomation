@@ -19,8 +19,9 @@ public class Bill {
            checkRep();
         }
 
+    // assert the rep invariant
     private void checkRep() {
-        // TODO assert the representation invariant
+        // TODO Auto-generated method stub
         
     }
     
@@ -93,15 +94,16 @@ public class Bill {
         this.dueDate = dueDate;
     }
     
-    public void goToWebSite() {     
-        try{
-            Runtime.getRuntime().exec(new String[]{"/usr/bin/google-chrome", this.webSiteAddress});
-        }
-        catch(IOException e){
-                e.printStackTrace();
-        }  
-    } 
+    public void goToWebSite() {
+        return; //TODO: REMOVE WHEN TESTING COMPLETE
+        //try{
+        //    Runtime.getRuntime().exec(new String[]{"/usr/bin/google-chrome", this.webSiteAddress});
+        //}
+        //catch(IOException e){
+        //        e.printStackTrace();
+        //}  
+    }
+    
 }
-
 
 
