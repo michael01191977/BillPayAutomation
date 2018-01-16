@@ -12,7 +12,7 @@ public class Income {
 
     // assert the rep invariant
     private void checkRep() {
-        // TODO Auto-generated method stub
+        // TODO
     }
  
     public void setSource(String source){
